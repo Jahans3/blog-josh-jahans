@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Josh Jahans - JS Blog',
+    title: 'JJ\'s JavaScript Blog',
     author: 'Josh Jahans',
-    description: 'A blog about JavaScript and anything else',
+    description: 'A blog about JavaScript',
     siteUrl: 'https://gatsby-starter-blog-demo.netlify.com/',
     social: {
       twitter: 'josh_jahans',
@@ -63,7 +63,7 @@ module.exports = {
         background_color: '#ffffff',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'content/assets/gatsby-icon.png',
+        icon: 'content/assets/jj-icon.png',
       },
     },
     'gatsby-plugin-offline',

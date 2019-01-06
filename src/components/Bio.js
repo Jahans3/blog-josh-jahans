@@ -16,7 +16,14 @@ function Bio () {
           <Image
             fixed={avatar}
             alt={author}
-            style={{ marginRight: rhythm(1 / 2), marginBottom: 0, borderRadius: `100%`, objectFit: 'contain', width: 120 }}
+            style={{
+              marginRight: rhythm(1 / 2),
+              marginBottom: 0,
+              borderRadius: `100%`,
+              objectFit: 'contain',
+              width: 120,
+              filter: 'brightness(1.5) grayscale(100%)'
+            }}
           />
           <p style={{ marginBottom: 0 }}>
             My name is <strong>{author}</strong> and this is my blog. I write about JavaScript and React.
