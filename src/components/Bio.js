@@ -31,10 +31,6 @@ function Bio () {
             <a href={`https://twitter.com/${twitter}`} style={{ marginTop: 50 }}>
               Follow me on Twitter
             </a>
-            <br />
-            <a href={`https://www.github.com/${github}`} style={{ marginTop: 50 }}>
-              Check out my Github
-            </a>
           </p>
         </div>
       )}
