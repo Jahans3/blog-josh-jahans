@@ -27,6 +27,10 @@ export default function Layout ({ location, title, children }) {
         <a href='https://www.github.com/Jahans3'>Github</a>
         {' '}
         <a href='https://www.twitter.com/josh_jahans'>Twitter</a>
+        {' '}
+        <span style={{ float: 'right' }}>
+          Check out the <a href='/rss.xml'>RSS Feed</a>
+        </span>
       </footer>
     </div>
   );
