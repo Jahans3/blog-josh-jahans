@@ -54,7 +54,7 @@ through [Hackernoon](https://hackernoon.com/) then *Medium would be charging peo
 ## What next?
 
 Like many others, I'll be moving my content over to an independent blog. This blog. I'll still publish some stuff through Hackernoon, as that's free
-for all to read, but I won't be putting anything directly onto Medium anymore. I'll also be re-posting those same blogs here, too.
+for all to read, but I won't be putting anything directly onto Medium anymore.
 
 For the foreseeable future, it looks like independent blogs are back. Still, there's a good business opportunity waiting for someone, as Medium seem
 intent on squandering the potential they had.
