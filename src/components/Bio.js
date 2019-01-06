@@ -9,7 +9,7 @@ function Bio () {
     <StaticQuery
       query={bioQuery}
       render={({
-        site: { siteMetadata: { author, social: { twitter } } },
+        site: { siteMetadata: { author, social: { twitter, github } } },
         avatar: { childImageSharp: { fixed: avatar } }
       }) => (
         <div style={{ display: `flex`, alignItems: 'center', marginBottom: rhythm(2.5) }}>
@@ -31,6 +31,10 @@ function Bio () {
             <a href={`https://twitter.com/${twitter}`} style={{ marginTop: 50 }}>
               Follow me on Twitter
             </a>
+            <br />
+            <a href={`https://www.github.com/${github}`} style={{ marginTop: 50 }}>
+              Check out my Github
+            </a>
           </p>
         </div>
       )}
@@ -51,7 +55,8 @@ const bioQuery = graphql`
       siteMetadata {
         author
         social {
-          twitter
+          twitter,
+          github
         }
       }
     }
