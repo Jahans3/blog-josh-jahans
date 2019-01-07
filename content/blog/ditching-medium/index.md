@@ -49,7 +49,7 @@ Unlike Bloomberg, Medium relies on user-submitted content and then charges those
 
 Sure, you can join Medium's partner program but, despite my articles garnering tens of thousands of views, I'd still only make pennies. Now
 I know in the grand scheme of things tens of thousands of views isn't a whole lot, but it doesn't change the fact that if I did not publish my blogs
-through [Hackernoon](https://hackernoon.com/) then *Medium would be charging people to read content that I am putting out essentially for free*.
+through [Hackernoon](https://hackernoon.com/) then *Medium would be charging people to read content that I am putting out essentially for free.
 
 ## What next?
 
@@ -60,3 +60,12 @@ For the foreseeable future, it looks like independent blogs are back. Still, the
 intent on squandering the potential they had.
 
 On the plus side, learning to use [Gatsby](https://www.gatsbyjs.org/) has been a blast.
+
+* * *
+
+Update: A few of you have mentioned that only partner program articles are paywalled, which is true and I could have been clearer about this. What
+feels rotten, to me at least, is for ***someone to create content for a website only to have access to other content limited.*** Imagine the outcry if
+YouTube content creators could only access a small subsection of the videos on YouTube, even after helping drive traffic to the site.
+
+Now also imagine if YouTube made other free videos nearly impossible to discover without a direct link and you have the current situation with Medium. A situation
+where people will promote their own blogs, drive traffic to the site, act as a gateway for future Medium users, then be left out in the cold.
