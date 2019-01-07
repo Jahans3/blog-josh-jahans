@@ -70,6 +70,6 @@ YouTube content creators could only access a small subsection of the videos on Y
 Now also imagine if YouTube made other free videos nearly impossible to discover without a direct link and you have the current situation with Medium. A situation
 where people will promote their own blogs, drive traffic to the site, act as a gateway for future Medium users, then be left out in the cold.
 
-For me this drastically changed was Medium was, it was no longer a medium for communication between independents, as the name implies, but rather yet another large
+For me this drastically changed what Medium was, it was no longer a medium for communication between independents, as the name implies, but rather yet another large
 business willing to use a community when it suits them, then throw them to the wayside when it comes to making money and hoping enough stick around for them to turn a profit. This
 could have been handled so much better.
