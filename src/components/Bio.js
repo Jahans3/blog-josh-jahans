@@ -22,6 +22,7 @@ function Bio () {
               marginBottom: 0,
               borderRadius: `100%`,
               objectFit: 'contain',
+              minWidth: 100,
               width: 120,
               filter: 'brightness(1.5) grayscale(100%)'
             }}
