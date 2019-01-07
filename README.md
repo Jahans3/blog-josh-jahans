@@ -1,4 +1,4 @@
-![](./content/assets/my-logo-144x144.png)
+![](./content/assets/my-logo-72x72.png)
 #  joshjahans.com
 
 This is the repo for my personal blog, built using [Gatsby](https://www.gatsbyjs.org).
