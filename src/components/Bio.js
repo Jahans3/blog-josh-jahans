@@ -1,6 +1,7 @@
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 import Image from 'gatsby-image'
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 import { rhythm } from '../utils/typography'
 
@@ -28,9 +29,9 @@ function Bio () {
           <p style={{ marginBottom: 0 }}>
             My name is <strong>{author}</strong> and this is my blog. I write about JavaScript and React.
             <br />
-            <a href={`https://twitter.com/${twitter}`} style={{ marginTop: 50 }}>
+            <OutboundLink href={`https://twitter.com/${twitter}`} style={{ marginTop: 50 }}>
               Follow me on Twitter
-            </a>
+            </OutboundLink>
           </p>
         </div>
       )}

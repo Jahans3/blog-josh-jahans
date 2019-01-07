@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link, StaticQuery, graphql } from 'gatsby'
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 import { rhythm, scale } from '../utils/typography'
 
@@ -32,11 +33,11 @@ export default function Layout ({ location, title, children }) {
           <footer>
             View my:
             {' '}
-            <a href={`https://www.github.com/${github}`}>Github</a>
+            <OutboundLink href={`https://www.github.com/${github}`}>Github</OutboundLink>
             {' '}
-            <a href={`https://www.twitter.com/${twitter}`}>Twitter</a>
+            <OutboundLink href={`https://www.twitter.com/${twitter}`}>Twitter</OutboundLink>
             <span style={{ float: 'right' }}>
-          Check out the <a href='/rss.xml'>RSS Feed</a>
+          Check out the <OutboundLink href='/rss.xml'>RSS Feed</OutboundLink>
         </span>
           </footer>
         </div>
