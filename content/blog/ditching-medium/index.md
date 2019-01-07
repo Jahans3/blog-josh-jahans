@@ -49,7 +49,7 @@ Unlike Bloomberg, Medium relies on user-submitted content and then charges those
 
 Sure, you can join Medium's partner program but, despite my articles garnering tens of thousands of views, I'd still only make pennies. Now
 I know in the grand scheme of things tens of thousands of views isn't a whole lot, but it doesn't change the fact that if I did not publish my blogs
-through [Hackernoon](https://hackernoon.com/) then *Medium would be charging people to read content that I am putting out essentially for free.
+through [Hackernoon](https://hackernoon.com/) then *Medium would be charging people to read content that I am putting out essentially for free*.
 
 ## What next?
 
