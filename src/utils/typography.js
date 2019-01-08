@@ -6,6 +6,10 @@ Wordpress2016.overrideThemeStyles = () => {
     'a.gatsby-resp-image-link': {
       boxShadow: `none`,
     },
+    'code.language-text': {
+      backgroundColor: '#e9e9e9',
+      fontSize: '16px'
+    }
   }
 }
 
