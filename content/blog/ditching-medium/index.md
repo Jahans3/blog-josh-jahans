@@ -53,8 +53,9 @@ through [Hackernoon](https://hackernoon.com/) then *Medium would be charging peo
 
 ## What next?
 
-Like many others, I'll be moving my content over to an independent blog. This blog. I'll still publish some stuff through Hackernoon, as that's free
-for all to read, but I won't be putting anything directly onto Medium anymore.
+Like many others, I'll be moving my content over to an independent blog. This blog. I'll still publish articles through Hackernoon, as that's free
+for all to read and [they appear to have awesome plans for the future](https://www.startengine.com/hackernoon), but I won't be putting anything
+directly onto Medium anymore.
 
 For the foreseeable future, it looks like independent blogs are back. Still, there's a good business opportunity waiting for someone, as Medium seem
 intent on squandering the potential they had.
@@ -63,7 +64,7 @@ On the plus side, learning to use [Gatsby](https://www.gatsbyjs.org/) has been a
 
 * * *
 
-Update: A few of you have mentioned that only partner program articles are paywalled, which is true and I could have been clearer about this. What
+**Update**: A few of you have mentioned that only partner program articles are paywalled, which is true and I could have been clearer about this. What
 feels rotten, to me at least, is for ***someone to create content for a website only to have access to other content limited.*** Imagine the outcry if
 YouTube content creators could only access a small subsection of the videos on YouTube, even after helping drive traffic to the site.
 
