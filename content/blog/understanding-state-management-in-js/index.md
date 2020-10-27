@@ -1,7 +1,13 @@
 ---
 title: Understanding State Management in JavaScript by Building a Library Similar to Redux
-date: '2019-01-08'
+date: '2018-12-03'
 ---
+
+* * *
+
+This is one of a couple of articles that I wrote a while ago and re-hosted on this blog. Apologies if you've read it before.
+
+* * *
 
 > For anyone who wants to skip the article and see the end result, I’ve taken what I’ve written here and made a library out if it using hooks: [use-simple-state](https://github.com/Jahans3/use-simple-state). It has zero dependencies (other than react as a peer dependency) and at just 3kb, it’s pretty lightweight.
 
@@ -315,7 +321,3 @@ To summarise, we’ve taken a look at the most barebones state manager possible 
 Hopefully you’ve found something useful in this article and I was able to shed a bit of light on some more advanced concepts while showing that a lot of the tools we use may be more simple than they first appear.
 
 > As briefly mentioned at the beginning, I’ve written a library, Use Simple State, off the back of this article. You can see it on on my Github page, where I’ve used hooks for the final implementation, which includes a couple of additional features.
-
-* * *
-
-This is one of a few articles that I wrote a while ago and will be re-posting on this new blog. Apologies if you've read it before.

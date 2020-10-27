@@ -1,7 +1,13 @@
 ---
 title: Writing Clean and Concise React Components by Making Full Use of ES6+ Features and the Container-Component Pattern
-date: '2019-01-07'
+date: '2017-01-07'
 ---
+
+* * *
+
+This is one of a couple of articles that I wrote a while ago and re-hosted on this blog. Apologies if you've read it before.
+
+* * *
 
 ## The Story So Far
 
@@ -176,7 +182,3 @@ I just want to emphasise that in article full of personal preferences and opinio
 JavaScript and the ecosystem surrounding React is advancing at a rapid pace. This is just an example of how I use some of
 the new features on offer to make coding more enjoyable, and to cut down on a lot of the boilerplate involved in writing
 complex applications.
-
-* * *
-
-This is one of a few articles that I wrote a while ago and will be re-posting on this new blog. Apologies if you've read it before.
