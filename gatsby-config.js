@@ -29,12 +29,6 @@ module.exports = {
       options: {
         plugins: [
           {
-            resolve: "gatsby-remark-embed-gist",
-            options: {
-              username: 'Jahans3'
-            }
-          },
-          {
             resolve: 'gatsby-remark-images',
             options: {
               maxWidth: 590,
@@ -49,6 +43,12 @@ module.exports = {
           'gatsby-remark-prismjs',
           'gatsby-remark-copy-linked-files',
           'gatsby-remark-smartypants',
+          {
+            resolve: "gatsby-remark-embed-gist",
+            options: {
+              username: 'Jahans3'
+            }
+          },
         ],
       },
     },
