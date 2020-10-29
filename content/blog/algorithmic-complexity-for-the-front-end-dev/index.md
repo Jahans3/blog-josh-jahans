@@ -88,4 +88,51 @@ Both `loopOne` and `loopTwo` do exactly the same thing, they just take different
 A common mistake people make when comparing the two functions would be to see that `loopTwo`
 iterates over the given input twice and assume its complexity must be 2 times that of `loopOne`, but this is not the case.
 
-Both `loopOne` and `loopTwo` increase in complexity in a linear fashion, directly proportional to *N*.
+Both `loopOne` and `loopTwo` increase in complexity in a linear fashion, directly proportional to *N*. With Big O we
+drop constant values, `O(2N)` would be `O(N)`.
+
+## Big O is *Additive*
+There are a few basic rules we need to understand about Big O before we get onto the really *complex* stuff (get it? Aha... I'll show myself out).
+
+The first is that Big O is additive. This one is simple, if we have two components in our algorithm we simply add the two together
+to find the cumulative complexity. Another simple code example should explain this:
+
+```javascript
+function myAlgorithm() {
+  doA(); // O(A)
+  doB(); // O(B)
+}
+```
+
+In `myAlgorithm` we execute two functions, `doA` and `doB`, which have a complexity of `O(A)` and `O(B)`, so the complexity of `myAlgorithm` is `O(A + B)`.
+
+If you've been paying close attention you may wonder why in the previous section our function `loopTwo` did not have a
+complexity of O(N + N). That is because in the former, `A` and `B` are different inputs, were they the same input, the
+overall complexity would be `O(N)` (or whatever letter you decided to represent your input with, it doesn't have to be N).
+
+## We always use the dominant term
+
+So we've seen functions with two identical loops, and we know that instead of something like `O(2N)` we would end up with `O(N)`,
+but what if that function didn't just consist of two identical loops but of a nested and a singular loop? Take `doStuff` below:
+
+```javascript
+function doStuff(arr) {
+  // O(N)
+  for (let i = 0; i < arr.length; i++) {
+    // do something
+  }
+
+  // O(N^2)
+  for (let i = 0; i < arr.length; i++) {
+    for (let j = 0; j < arr.length; j++) {
+      // do something
+    }
+  }
+}
+```
+
+It may seem intuitive to say that the cumulative Big O of `doStuff` is `O(N + N^2)`, right? Well not quite. This is because
+we must always choose the dominant term, which to you and I simply means that we have a complexity of `O(N^2)`.
+
+A quick explanation is that `O(N^2)` is directly equal to `O(N + N^2)`. Note that this is just a layman's explanation and
+there are some rules as to when one term have dominance over another, but this is the gist of it.
